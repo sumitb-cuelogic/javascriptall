@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheet/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheet/signup.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheet/normalize.css" />
+    <script src="./jsp/signup.js"></script>
+    <script src="./jsp/profile.js"></script>
+    
+</head>
+<body  >
+        <header class="header">
+               <p class="labellogin">LOGIN</p>    
+            <form action="" class="login">       
+               <input class="logininput" type="text" name="username" id="usernamel" placeholder=" Username/Email" value="" > 
+                  
+               <input  class="logininput" type="password" name="password" id="passwordl" placeholder=" Password" value="" >
+               <button class="loginb" onclick="validateUserLogin(event)">Login</button>  
+      
+            </form>
+                <p class="alertmsg" id="loginalert" style="margin-left:650px;padding:10px;">hi</p>
+        </header>
+
+
+
+    <div class="container">
+           
+    <form  id="formdata" >
+            <p >Sign Up </p> 
+                                
+                
+                <input class="inputtext" type="text" id="email" name="email"  onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email* '"   placeholder=" Email* " value="" >
+                <p class="alertmsg" id="emailalert">hi</p>  <br>
+                
+                <input class="inputtext"type="text" id="fname" name="fname" onfocus="this.placeholder = ''" onblur="this.placeholder = ' First name* '"  placeholder=" First name*" value=""> 
+                <p class="alertmsg" id="fnamealert">hi</p> <br>
+             
+                <input class="inputtext"type="text"  id="lname"  name="lname"  onfocus="this.placeholder = ''" onblur="this.placeholder = ' Last name*'"placeholder=" Last name*"  value=""> 
+                 <p class="alertmsg" id="lnamealert">hi</p><br>  
+                     
+                    <input class="inputtext" type="text" id="address" name="address"  onfocus="this.placeholder = ''" onblur="this.placeholder = ' Address '"placeholder=" Address" > <br>          
+                  
+                    <input class="inputtext" id="passwd1" type="password" placeholder=" Password*"  onfocus="this.placeholder = ''" onblur="this.placeholder = ' Password* '"  > <br>
+                    <input class="inputtext" id="passwd2" type="password" placeholder="Retype Password*"  onfocus="this.placeholder = ''" onblur="this.placeholder = ' Retype Password* '" > 
+                    <p id="passmsg"></p> <br>
+        
+                    <input  class="radiobutton" id="r1" type="radio" name="gender" value="male" checked >  Male 
+                    <input class="radiobutton" id="r2" type="radio" name="gender" value="female"> Female 
+                    <input class="radiobutton" id="r3" type="radio" name="gender" value="other"> Other  <br> 
+                
+                    <h4 style="margin-left:25px;" >upload image:<input class="profimg" id="profimg" type="file" accept="image/*" name="proimg"  ></h4>
+                   <button class="registerb" onclick="validateForm(event)">Register</button>
+                   <!-- <input type="submit" value="Register" class="registerb"> -->
+                </form>
+    </div>
+
+
+
+</body>
+
+</html>

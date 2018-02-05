@@ -1,0 +1,41 @@
+/*
+body{
+    background-image: url("../image/cover2.jpg");
+    background-size: cover;
+   
+}*/
+.task{
+    width:500px;
+    margin:  150px auto;
+    font-size: 20px;
+    color:gray;
+}
+.inputtext{
+
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+}
+.categories{
+
+    margin: 20px;
+
+}
+
+.saveb{
+
+    width:200px;
+    height:40px;
+    margin-top: 30px;
+     margin-left: 90px;
+    border-color: green;
+    border-radius: 19px;
+    background-color: white;
+    font-size: 18px;
+    border-width: 1px;
+}
+
+#calender{
+
+    display:none;
+}

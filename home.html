@@ -1,0 +1,47 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+    <script src="./jsp/profile.js"></script>
+    <script src="./jsp/home.js"></script>
+    <link rel="stylesheet" href="./stylesheet/home.css">
+</head>
+<body onload="displaytask()">
+
+        <header class="header">
+              
+              <section class="headerbutton">        
+                <a href="profile.html"> <button class="loginb">profile view</button></a> 
+               
+                <a href="signup.html"><button class="loginb" onclick="logout()">Logout</button></a>
+            </section>
+         </header>
+ 
+
+<div class="tabledata" id="tabletask">
+           <table >
+            <tr><td>serial no.</td><td>Task</td><td>Category</td><td>date</td><td>status</td></tr>
+           
+
+            </table>
+          
+</div>
+                <div style:"margin 0 auto;">
+                    <a href="addtask.html"><button class="loginb" id="addtask">add task</button></a>
+                    <button class="deleteb" onclick="deletetask()">delete</button>
+                    <button class="doneb" onclick="done()">Done</button>
+                    <button class="doneb" onclick="showSearchList()">Search</button>
+                    <select id="selectsearch" onchange="searchTask()">
+                        <option value="">Select</option>
+                        <option value="private">Private Task</option>
+                        <option value="public">Public Task</option>
+                        <option value="done">Done Task</option>
+                        <option value="doing">Pending Task</option>
+                    </select> 
+                    <p id="p"></p>
+                </div>
+    </body>
+</html>

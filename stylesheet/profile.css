@@ -1,0 +1,20 @@
+
+.container1{
+    width:500px;
+    margin:  150px auto;
+    color:gray;
+}
+
+
+.registerb1{
+
+    width:100px;
+    height:40px;
+    margin-top: 20px;
+    margin-left:60px;
+    border-color: green;
+    border-radius: 19px;
+    background-color: white;
+    font-size: 18px;
+    border-width: 1px;           
+}      

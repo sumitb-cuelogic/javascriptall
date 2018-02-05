@@ -1,0 +1,28 @@
+
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>addtask</title>
+        <link rel="stylesheet" href="./stylesheet/addtask.css">
+        <script src="./jsp/addtask.js"></script>
+    </head>
+    <body>
+            <div class="task"> 
+
+            <label for="">add Title :</label> <input class="inputtext" id="addtasktext" type="text" value=""> <br><br>
+            <label for="">categories :</label> 
+                                <input type="radio" name="categories" id="radio1">Public
+                                <input type="radio" name="categories" id="radio2" checked >Private <br> <br>
+                                
+            <label for="">reminder :</label> <input type="checkbox" name="reminder" id="reminder" onchange="showMe()"> reminder
+            <input type="date" name=""  id="calender" value=""> <br>
+
+            <button class="saveb" onclick="addtask()">save</button>
+    </div>
+
+  
+    </body>
+    </html>

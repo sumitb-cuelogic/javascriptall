@@ -1,0 +1,85 @@
+
+/*  
+body{
+    background-image: url("../image/cover2.jpg");
+   
+    background-size: cover;
+    
+} */
+
+.header{
+    height: 120px;
+    /* background-color:rgba(0,0,0,0.5); */
+    color:gray;
+    background-color: cyan;
+
+}
+
+
+
+.tabledata{
+
+    width:800px;
+    margin:  0 auto;
+     color:gray;
+     margin-top:20px;
+}
+td{
+    width: 200px;
+    padding: 20px;
+    background-color: aquamarine;
+    font: bold;
+    
+
+}
+
+
+.loginb{
+    margin-left:20px;
+
+    width:100px;
+    height:30px;
+    margin-top: 5px;
+    border-color: green;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 14px;
+    border-width: 1px;
+}
+
+.headerbutton{
+   
+    padding: 40px;
+}
+
+.deleteb{
+    margin-left:24px;
+    width:100px;
+    height:30px;
+    margin-top: 10px;
+    border-color: green;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 14px;
+    border-width: 1px;
+}
+
+.doneb{
+   margin-left:30px;
+    width:100px;
+    height:30px;
+    margin-top: 10px;
+    border-color: green;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 14px;
+    border-width: 1px;
+}
+#addtask{
+    margin-left:400px;
+}
+
+#selectsearch{
+    display: none;
+   
+}
